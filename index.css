@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #0d0d5b;
+  color: #ddecec;
+  line-height: 1.6;
+}
+header {
+  background: #100236;
+  color: #dbe6cc;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.2rem;
+}
+header p {
+  margin: 5px 0;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: #2ed418;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a9a409;
+}
+#bio p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+}
+.skills-list li {
+  background: #de8fe9;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+.experience-item {
+  background: #fb57da;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(229, 209, 209, 0.1);
+}
+.experience-item h3 {
+  color: #150105;
+  margin-bottom: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #df5151;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+button {
+  background: #170b0b;
+  color: #45cab2;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #49cde2;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #8ecf0b;
+  color: #e30eab;
+  margin-top: 30px;
+}
